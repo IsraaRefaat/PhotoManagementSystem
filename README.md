@@ -35,7 +35,7 @@ This approach uses **internal loops**, which are more declarative and easier to 
 
 ## 📦 Project Structure
 
-```bash
+
 com.esraa.PhotoManagementSystem
 │
 ├── Photo.java                  # Photo entity with fields: ID, name, location, tags, date
@@ -44,7 +44,6 @@ com.esraa.PhotoManagementSystem
 └── PhotoManager.java           # Main logic class implementing the interface
 
 
----
 
 ## 🧪 Unit Testing
 
@@ -69,7 +68,6 @@ Test cases cover:
 
 Tests validate both **positive and negative** scenarios to ensure reliability.
 
----
 
 ## ▶️ Running the Tests
 
@@ -83,7 +81,6 @@ mvn test
 # With Gradle
 ./gradlew test
 
----
 
 ## 👩‍💻 Author
 
