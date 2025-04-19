@@ -33,17 +33,17 @@ This approach uses **internal loops**, which are more declarative and easier to 
 
 ---
 
+
 ## 📦 Project Structure
 
-
+```bash
 com.esraa.PhotoManagementSystem
 │
 ├── Photo.java                  # Photo entity with fields: ID, name, location, tags, date
 ├── Location.java               # Location class (latitude, longitude or country/city)
 ├── PhotoManagerInterface.java  # Abstraction for the PhotoManager
 └── PhotoManager.java           # Main logic class implementing the interface
-
-
+```
 
 ## 🧪 Unit Testing
 
